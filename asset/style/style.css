@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: #876445;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 100;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.navbar.hidden {
+  top: -100px; /* Menggeser navbar ke atas saat disembunyikan */
+}
+.nav-item {
+  font-weight: bold;
+}
+.img-carousel {
+  height: 450px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+.name {
+}
+
+.image-card {
+  height: 250px;
+}
+.img-about {
+  width: 350px;
+  height: 300px;
+}
+.judul {
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.harga {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+  float: right;
+  margin-top: 5px;
+}
+.card-text {
+  align: center;
+}
+
+.login-card {
+}
+.dropdown-item {
+  color: white;
+}
+.dropdown-menu {
+  background: #876445;
+  margin-left: -67px;
+}
+.tentang {
+  font-family: "Teko", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.53);
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: #876445;
+}
+.contact {
+  font-family: "Teko", sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.teks-about {
+  font-family: "PT Serif", serif;
+}
+.about-img {
+  width: 300px;
+  height: 225px;
+}
+.wrapper-about {
+  background: #876445;
+  background-attachment: fixed;
+  box-shadow: 2px 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.card-about {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  background: #876445;
+}
+
+.data {
+  color: #f9e0bb;
+  text-shadow: -1px 1px 2px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.data:hover {
+  color: #876445;
+}
+.back {
+  background: #faf0e4;
+  border-radius: 15px;
+}
